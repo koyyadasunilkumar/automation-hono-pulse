@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="emailAddress" value="developers@hono.ai"/>
+  <parameter name="password" value="1234"/>
+  <parameter name="siteURL" value="https://pulsev2.honohr.com/login"/>
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Honohr pulse Create Survey sanity test(failed)">
+    <classes>
+      <class name="com.honohr.pulse.createsurvey.test.HonohrCreateSurveyAddQuestionsTest">
+        <methods>
+          <include name="verifyCreateSurveyQuestionDetailsByUploadAudioAsOption"/>
+          <include name="initTestData"/>
+          <include name="initMethodTest"/>
+        </methods>
+      </class> <!-- com.honohr.pulse.createsurvey.test.HonohrCreateSurveyAddQuestionsTest -->
+    </classes>
+  </test> <!-- Honohr pulse Create Survey sanity test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

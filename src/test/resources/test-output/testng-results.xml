@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T10:50:04 IST" name="Suite" finished-at="2023-03-21T10:50:55 IST" duration-ms="51487">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T10:50:04 IST" name="Honohr pulse Create Survey sanity test" finished-at="2023-03-21T10:50:55 IST" duration-ms="51487">
+      <class name="com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest">
+        <test-method is-config="true" signature="initTestData(java.lang.String)[pri:0, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:03 IST" name="initTestData" finished-at="2023-03-21T10:50:04 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://pulsev2.honohr.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestData -->
+        <test-method is-config="true" signature="initMethodTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:04 IST" name="initMethodTest" finished-at="2023-03-21T10:50:17 IST" duration-ms="13920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://pulsev2.honohr.com/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[developers@hono.ai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethodTest -->
+        <test-method signature="verifyConfiguration()[pri:1, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:17 IST" name="verifyConfiguration" description="Verify Configuration" finished-at="2023-03-21T10:50:18 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConfiguration -->
+        <test-method signature="verifyAddNewEngagementParameterWithEmptyFields()[pri:2, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:19 IST" name="verifyAddNewEngagementParameterWithEmptyFields" description="Verify Add New Engagement Parameter functionality with empty fields" finished-at="2023-03-21T10:50:22 IST" duration-ms="3569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewEngagementParameterWithEmptyFields -->
+        <test-method signature="verifyAddNewEngagementParameterWithOnlyEngagementParameterName()[pri:3, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:22 IST" name="verifyAddNewEngagementParameterWithOnlyEngagementParameterName" description="Verify Add New Engagement Parameter functionality by leaving scale start &amp; end values blank" finished-at="2023-03-21T10:50:24 IST" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewEngagementParameterWithOnlyEngagementParameterName -->
+        <test-method signature="verifyAddNewEngagementParameterWithoutEngagementParameterName()[pri:4, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:24 IST" name="verifyAddNewEngagementParameterWithoutEngagementParameterName" description="verifyAddNewEngagementParameterWithoutEngagementParameterName" finished-at="2023-03-21T10:50:27 IST" duration-ms="2835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewEngagementParameterWithoutEngagementParameterName -->
+        <test-method signature="verifyAddNewEngagementParameterWithoutScaleEndValue()[pri:5, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:27 IST" name="verifyAddNewEngagementParameterWithoutScaleEndValue" description="Verify Add New Engagement Parameter functionality by leaving the Scale End Value field blank" finished-at="2023-03-21T10:50:30 IST" duration-ms="3636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewEngagementParameterWithoutScaleEndValue -->
+        <test-method signature="verifyAddNewEngagementParameterWithoutScaleStartValue()[pri:6, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:30 IST" name="verifyAddNewEngagementParameterWithoutScaleStartValue" description="Verify Add New Engagement Parameter functionality by leaving the Scale Start Value field blank" finished-at="2023-03-21T10:50:33 IST" duration-ms="3139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewEngagementParameterWithoutScaleStartValue -->
+        <test-method signature="verifyAddNewEngagementParameterWithAllValues()[pri:7, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:33 IST" name="verifyAddNewEngagementParameterWithAllValues" description="Verify Add New Engagement Parameter functionality by giving Engagement Parameter Name ,the Scale Start and the scale End Values" finished-at="2023-03-21T10:50:38 IST" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewEngagementParameterWithAllValues -->
+        <test-method signature="verifyAddNewSubParameter()[pri:8, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:38 IST" name="verifyAddNewSubParameter" description="Verify add new sub parameter" finished-at="2023-03-21T10:50:39 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewSubParameter -->
+        <test-method signature="verifyAddNewSubParameterByLeavingEngagementparameter()[pri:9, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:39 IST" name="verifyAddNewSubParameterByLeavingEngagementparameter" description="Verify Add New Sub Parameter Functionality by leaving the Engagement Parameter field blank" finished-at="2023-03-21T10:50:40 IST" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewSubParameterByLeavingEngagementparameter -->
+        <test-method signature="verifyAddNewSubParameterByGivingEngagementParameterName()[pri:10, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:40 IST" name="verifyAddNewSubParameterByGivingEngagementParameterName" description="Verify Add New Sub Parameter Functionality by giving the Engagement Parameter name" finished-at="2023-03-21T10:50:43 IST" duration-ms="2810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewSubParameterByGivingEngagementParameterName -->
+        <test-method signature="verifyUpdateEngagementParameterNameWithEmptyValue()[pri:11, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:43 IST" name="verifyUpdateEngagementParameterNameWithEmptyValue" description="Verify Update Engagement Parameter functionality by leaving the Engagement Parameter field blank" finished-at="2023-03-21T10:50:45 IST" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateEngagementParameterNameWithEmptyValue -->
+        <test-method signature="verifyUpdateEngagementParameterWithEmptyScaleStartValue()[pri:12, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:45 IST" name="verifyUpdateEngagementParameterWithEmptyScaleStartValue" description="Verify Update Engagement Parameter functionality by leaving the Scale Start Value field blank" finished-at="2023-03-21T10:50:48 IST" duration-ms="2934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateEngagementParameterWithEmptyScaleStartValue -->
+        <test-method signature="verifyUpdateEngagementParameterWithEmptyScaleEndValue()[pri:13, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:48 IST" name="verifyUpdateEngagementParameterWithEmptyScaleEndValue" description="Verify Update Engagement Parameter functionality by leaving the Scale End Value field blank" finished-at="2023-03-21T10:50:51 IST" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateEngagementParameterWithEmptyScaleEndValue -->
+        <test-method signature="verifyUpdateEngagementParameterWithEmptyScaleStartAndEndValues()[pri:14, instance:com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest@2eea88a1]" started-at="2023-03-21T10:50:51 IST" name="verifyUpdateEngagementParameterWithEmptyScaleStartAndEndValues" description="Verify Update Engagement Parameter functionality by leaving the Scale Start and End Value fields blank" finished-at="2023-03-21T10:50:55 IST" duration-ms="3847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateEngagementParameterWithEmptyScaleStartAndEndValues -->
+      </class> <!-- com.honohr.pulse.configuration.test.HonohrPulseCreateSurveyDefineEngagementParameterTest -->
+    </test> <!-- Honohr pulse Create Survey sanity test -->
+  </suite> <!-- Suite -->
+</testng-results>
